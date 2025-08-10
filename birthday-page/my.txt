@@ -1,0 +1,28 @@
+body{
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
+
+*{
+  font-family: "Poppins","sans-serif";
+}
+
+@media screen and (max-width: 924px) {
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+  .image{
+    padding: 0px 0px ;
+    margin: 0px 0px;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+ .content{
+  width: 100%;
+  padding: 0px 0px;
+  height: auto;
+}
+
+}
